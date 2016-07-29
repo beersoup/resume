@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jennie CV</title>
+    <!-- 3ColorResume Theme -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+	            <div id="download_area">
+	            	<form action="force_download.php" method="post" name="downloadform">
+						<input name="file_name" value="cv.pdf" type="hidden">
+						<button id="download_botton" type="submit" class="btn btn-default">
+							<i class="fa fa-download fa-2x" aria-hidden="true"></i>
+						</button> 
+					</form>
+				</div>
+            <div id="text-header">
+              <h1 style="line-height: 150%;">Hej,<br><span style="color: #777;"> Jag heter Jennie </span><span>Lenier,</span><span style="color: #777;"> och här är min cv</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2>Om mig</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.</p>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2>Utbildning</h2>
+            <ul id="education" class="clearfix">   
+            </ul>
+          </div>
+          <!-- EXPERIENCES -->
+          <div id="experience" class="box">
+            <h2>Erfarenhet</h2>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2>Kontakt</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">500 345 242</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right">office@kamsolutions.pl</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right">https://twitter.com/WordPress</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-facebook fa-fw"></span></div>
+              <div class="title pull-right">Facebook</div>
+              <div class="description pull-right">https://www.facebook.com/facebook</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-skype fa-fw"></span></div>
+              <div class="title pull-right">Skype</div>
+              <div class="description pull-right">kamsolutions.pl</div>
+            </div>
+          </div>
+          <!-- SKILLS -->
+          
+          <div class="box">
+            <h2>Färdigheter</h2>
+            <div class="skills">  
+
+            </div>
+            <div class="skills-legend clearfix">
+                <div class="legend-left legend">Beginner</div>
+                <div class="legend-left legend"><span>Proficient</span></div>
+                <div class="legend-right legend"><span>Expert</span></div>
+                <div class="legend-right legend">Master</div>
+            </div>
+            
+          </div>
+          
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2>Språk</h2>
+            <div id="language-skills">
+              <div class="skill">Thailändska <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
+              <div class="skill">Engelska <div class="icons pull-right"><div style="width: 80%;" class="icons-red"></div></div></div>
+              <div class="skill">Svenska <div class="icons pull-right"><div style="width: 50%;" class="icons-red"></div></div></div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2>Interesse</h2>
+            <div class="hobby">Resa</div>
+            <div class="hobby">Fitness</div>
+            <div class="hobby">Programmering</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- JQUERY -->
+    <script src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/education.js"></script>
+  <script src="js/experience.js"></script>
+  <script src="js/skill.js"></script>
+  </body>
+</html>
